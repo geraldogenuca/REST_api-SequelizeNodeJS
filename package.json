@@ -1,0 +1,33 @@
+{
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.21",
+    "sequelize-cli": "^6.6.0",
+    "sucrase": "^3.29.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.2.0",
+    "sequelize": "^6.29.0"
+  },
+  "name": "rest_api-sequelizenodejs",
+  "description": "REST api in nodejs and sequelize.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geraldogenuca/REST_api-SequelizeNodeJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geraldogenuca/REST_api-SequelizeNodeJS/issues"
+  },
+  "homepage": "https://github.com/geraldogenuca/REST_api-SequelizeNodeJS#readme"
+}
